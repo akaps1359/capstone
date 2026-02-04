@@ -1,20 +1,18 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
 venv/
 .venv/
-env/
-.env/
 
-# Data (Exclude raw data and model artifacts to keep repo light)
-data/features/*.csv
-data/models/*.pth
-data/models/*.pkl
-data/models/*.txt
+# Data
+data/
+jinhyuk/data/
+member2/data/
+member3/data/
 
-# VS Code
-.vscode/
+# Models
+*.pth
+*.pkl
+*.txt
 
 # OS
 .DS_Store
