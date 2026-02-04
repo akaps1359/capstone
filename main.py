@@ -4,8 +4,8 @@ import time
 import numpy as np
 
 # Import our custom modules
-from filters import LowPassFilter, KalmanFilter1D
-from features import FeatureExtractor
+from jinhyuk.filters import LowPassFilter, KalmanFilter1D
+from jinhyuk.features import FeatureExtractor
 
 def main():
     # ---------------------------
