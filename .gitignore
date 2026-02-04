@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Data (Exclude raw data and model artifacts to keep repo light)
+data/features/*.csv
+data/models/*.pth
+data/models/*.pkl
+data/models/*.txt
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
